@@ -1,0 +1,9 @@
+# 项目排除路径
+/out/
+/springMvc-02-hellomvc/target/
+/springmvc-02-hellomvc2/target/
+/springmvc-02-michilaymvc/target/
+/springmvc-03-annotation/target/
+/springmvc-04-controller/target/
+/springmvc-04-para/target/
+/springmvc-05-json/target/
