@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iframe页面无刷新</title>
+    <script src="static/js/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+    <div>
+        <q>请输入地址：</q>
+        <p>
+            <input type="text" id="url" value="https://blog.csdn.net/michilay">
+            <input type="submit" value="提交" id="b1">
+        </p>
+
+    </div>
+    <div>
+        <iframe style="width: 80%;height: 500px" id="iframe1"></iframe>
+    </div>
+    <script>
+        $('#b1').click(function (){
+            $('#iframe1').src = $('#url').value();
+        })
+    </script>
+</body>
+</html>
